@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trang Web cá nhân của tôi</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/564x/8f/93/79/8f9379f2692110d17f27cce3ae07cfbd.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-image {
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .profile-bio {
+            text-align: center;
+            color: #171616;
+            padding: 20px;
+        }
+
+        section {
+            background-color: #FFC1C1;
+            margin: 20px 0;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #FFC1C1;
+            padding: 20px;
+            text-align: center;
+        }
+        .container{
+  width:100%;
+  height:auto;
+  min-height:100vh;
+  background-color: #FFFFF0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  margin-top:100px
+}
+.gallery-display-area{
+  overflow:hidden;
+  height:608px;
+  width:1080px;
+  margin:0 auto;
+}
+.gallery-wrap{
+  width:500%;
+  animation: slideshow 25s infinite;
+}
+.image{
+  float: left;
+  object-fit:cover;
+  height: 608px;
+  width: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-reflect: below 1px -webkit-gradient(linear, right top, right bottom, 
+  form(transparent), to(rgba(255,255,255,0.3)))
+}
+@keyframes slideshow{
+  20%{
+    margin-left:0;
+  }
+  30%{
+    margin-left:-100%;
+  }
+  40%{
+    margin-left:-100%;
+  }
+  50%{
+    margin-left:-200%;
+  }
+  60%{
+    margin-left:-200%;
+  }
+  70%{
+    margin-left:-300%;
+  }
+  80%{
+    margin-left:-300%;
+  }
+  90%{
+    margin-left:-400%;
+  }
+  100%{
+    margin-left:-400%;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <header style="margin-top:60px ;">
+        <h1>CHÀO MỪNG BẠN ĐẾN VỚI TRANG WEB CỦA TÔI</h1>
+    </header>
+    <div class="container">
+        <div class="gallery-display-area">
+          <div class="gallery-wrap">
+            <div class="image">
+              <img src="z5403248602139_84ad7661e6ef4d959cd1011eb1283439.jpg"/>
+            </div>
+            <div class="image">
+              <img src="z5403248593161_a19a96a19128ea397b1f88a9739043e2.jpg"/>
+            </div>
+            <div class="image">
+              <img src="z5403248602140_ce062ba3006e51a0256057f038afcb3f.jpg"/>
+            </div>
+            <div class="image">
+              <img src="z5403248720451_0b47a4ae34ed5b9d5f7e5975c1a5d236.jpg"/>
+            </div>
+            <div class="image">
+              <img src="z5403248729898_344d4299407d12dad97d22d536fd06fd.jpg"/>
+            </div>
+          </div>
+        </div>
+        </div>
+    <img class="profile-image" src='z5242516052385_d1086afd5cddfe366612b02b17573997.jpg' alt="Profile Image" />
+
+    <div class="profile-bio">
+        <em> <b>XIN CHÀO MỌI NGƯỜI</b> </em>
+    </div>
+
+    <section>
+        <h2>THÔNG TIN</h2>
+        <ul>
+            <li>Họ và tên: Bùi Thị Ngọc Thúy</li>
+            <li>Ngày sinh: 26/06/2003</li>
+            <li>Địa chỉ: 54/64a Bùi Quang Là, P12, Quận Gò Vấp</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>HỌC VẤN</h2>
+        <ul>
+            <li>Đại học Công nghiệp TP.Hồ Chí Minh 9/2021- đến nay</li>
+            <li>GPA 3.2/4</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>TÍNH CÁCH</h2>
+        <ul>
+            <li>Hòa đồng</li>
+            <li>Vui tính</li>
+            <li>Hoạt bát</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Thông tin người dùng</h2>
+        <form>
+            <div>
+                <label>Hãy điền thông tin của bạn:</label>
+                <input type="text" placeholder="Tên của bạn là:" />
+                <select>
+                    <option>Nữ</option>
+                    <option>Nam</option>
+                    <option>Unisex</option>
+                </select>
+            </div>
+            <div>
+                <label>Bạn có yêu tui không?</label>
+                <input type="radio" name="YêuTui">Có
+                <input type="radio" name="YêuTui">Chắc chắn rồi
+            </div>
+            <div>
+                <label>Bạn có người yêu chưa?</label>
+                <input type="radio" name="NgườiYêu"> Có
+                <input type="radio" name="NgườiYêu"> Chưa
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <h2>Đặt câu hỏi cho tôi!</h2>
+        <form>
+            <input type="text" placeholder="Điền câu hỏi của bạn" />
+            <button>Gửi câu hỏi</button>
+        </form>
+    </section>
+
+    <footer>
+        <h2>Thông tin liên hệ:</h2>
+        <ul>
+            <li>Email: tn7447632@gmail.com</li>
+            <li>Facebook: <a href="https://www.facebook.com/ngoc.thuyyyyyyyyt?mibextid=LQQJ4d"> Ngọc Thúy </a></li>
+            <li>Số điện thoại liên hệ: 0979516246</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
